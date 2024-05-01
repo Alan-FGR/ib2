@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark" />
+    <link rel="stylesheet" href="css/pico.orange.min.css">
+    <link rel="stylesheet" href="css/ib2.css">
+    <title>IB2 theft prevention</title>
+    <script src="js/check.js"></script>
+</head>
+<body>
+    <main class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="/"><img src="img/logo.png" class="logo" /></a>
+                    <strong style="display: inline-block; margin-top: 0.4em;">IB2 Theft Prevention</strong>
+                </li>
+            </ul>
+            <ul>
+                <li><a href="/about">About</a></li>
+                <li><a href="/system">System</a></li>
+                <li><a href="/check"><button class="primary">Check</button></a></li>
+            </ul>
+        </nav>
+
+        </div>
+
+        <h1>IB2 Theft Prevention System</h1>
+        <h3>The most effective bicycle theft prevention system</h3>
+
+        <form style="max-width: 20em;" onsubmit="return CheckValue();">
+            <label>
+                Check an ID
+                <fieldset role="group">
+                    <input id="check_input" name="id" type="text" placeholder="Enter ID (e.g. K1B)" />
+                    <input type="submit" value="Check" />
+                </fieldset>
+            </label>
+        </form>
+
+        <p>
+            If you found an ID (which consists of 3 or 4 characters) in an object,
+            enter it in the field above and clock "Check" to see whether it's been reported as stolen.
+            In case of stolen items, further instructions will appear in that page.
+            We thank you for your collaboration!
+        </p>
+
+        
+        <footer style="font-size: 0.8em;">
+            <div class="grid">
+                <div>
+                    <h6>Pages</h6>
+                    <ul>
+                        <li><a href="/about">About IB2</a></li>
+                        <li><a href="/system">The IB2 System</a></li>
+                        <li><a href="/check">Check an ID</a></li>
+                        <li><a href="/join">Join IB2</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h6>Legal</h6>
+                    <ul>
+                        <li><a href="/terms">Terms and Conditions</a></li>
+                        <li><a href="/privacy">Privacy Policy</a></li>
+                        <li>IB2 is an international entity with legal representation in the following countries: United Kingdom, Sweden, Denmark, Norway, Netherlands and Germany.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h6>Credits and Attribution</h6>
+                    <ul>
+                        <li>Made possible by our Collaborators (detailed in mailing list)</li>
+                        <li>Infrastructure generously provided by Microsoft and/or its subsidiaries</li>
+                        <li>Some icons by <a href="https://www.flaticon.com" title="icons">Flaticon</a></li>
+                        <li><a href="https://www.flaticon.com/free-icons/sports-and-competition" title="sports and competition icons">Sports and competition icons created by Smashicons - Flaticon</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
